@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\COMT0565\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\COMT0565\\.nuget\\packages",
+      "C:\\Users\\Comte\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Comte\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

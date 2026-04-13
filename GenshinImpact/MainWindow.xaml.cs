@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,5 +21,25 @@ namespace GenshinImpact
         {
             InitializeComponent();
         }
+
+        private void DragClick(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                this.DragMove();
+            }
+        }
+
+        private void OpenBigMoment(object sender, MouseButtonEventArgs e)
+        {
+            string _url = "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de&mhy_presentation_style=fullscreen&utm_source=launchergenshin&utm_medium=news#/index";
+
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = _url,
+                UseShellExecute = true
+            });
+        }
+
     }
 }

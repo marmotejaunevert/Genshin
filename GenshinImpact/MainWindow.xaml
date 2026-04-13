@@ -5,33 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GenshinImpact"
         mc:Ignorable="d"
-        Title="GINCHIN IMPEK" Height="450" Width="800"
+        Title="GINCHIN IMPEK" Height="720" Width="1280"
         WindowStyle="None"
         AllowsTransparency="True"
         Background="Transparent"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
 
-    <Border CornerRadius="10">
+    <Border CornerRadius="10" Background="White" x:Name="MainBorder">
         <Grid>
+            <Grid.OpacityMask>
+                <VisualBrush>
+                    <VisualBrush.Visual>
+                        <Border Background="Black" 
+                                CornerRadius="{Binding CornerRadius, ElementName=MainBorder}"
+                                Width="{Binding ActualWidth, ElementName=MainBorder}" 
+                                Height="{Binding ActualHeight, ElementName=MainBorder}"></Border>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Grid.OpacityMask>
+            
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="65"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                    <GradientStop Color="Orange" Offset="0"/>
-                    <GradientStop Color="Blue" Offset="1"/>
+                    <GradientStop Color="#8C5F6B" Offset="0"/>
+                    <GradientStop Color="#1D1416" Offset="1"/>
                 </LinearGradientBrush>
             </Grid.Background>
             <!-- Logo Hoyo -->
+            <Image Source="/Assets/hoyo.png" Grid.Column="0" VerticalAlignment="Top" Margin="7"/>
 
-            <Grid Grid.Column="1" Background="Black">
+            <Image Source="/Assets/Splashscreen_Ya-hoho_Linnea.png" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+
+            <Grid Grid.Column="1" Background="Transparent">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <!-- Fond -->
+
+
+                <Grid Grid.Row="0" Background="Transparent" MouseLeftButtonDown="DragClick">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    </StackPanel>
+                </Grid>
+
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
                     <!--
                     Option button
@@ -43,23 +63,28 @@
                 <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="60"/>
                     </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <!-- Réseaux -->
+                    <!-- Réseaux -->
+                    <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="15,50,15,0">
+                        <Image Source="/Assets/hoyo2.png" Height="60"/>
+                        <Image Source="/Assets/Messenger.png" Height="60" />
+                        <Image Source="/Assets/X.png" Height="60"/>
+                        <Image Source="/Assets/discord.png" Height="60"/>
+                        <Image Source="/Assets/Reddit.png" Height="60"/>
+                        <Image Source="/Assets/whatsapp.png" Height="60"/>
+                        <Image Source="/Assets/youtube.jpg" Height="60"/>
+                        <Image Source="/Assets/house.png" Height="60"/>
                     </StackPanel>
 
-                    <Grid Grid.Column="0">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="0.5*"/>
-                            <RowDefinition Height="1.5*"/>
-                            <RowDefinition Height="2*"/>
-                        </Grid.RowDefinitions>
-
-                        <Grid Grid.Row="0" Background="AliceBlue"></Grid>
-                        <Grid Grid.Row="1" Background="Beige"></Grid>
-                        <Grid Grid.Row="2" Background="Coral"></Grid>
-                    </Grid>
+                    <StackPanel Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Left">
+                        <Border Margin="65,270,0,0" BorderThickness="1" BorderBrush="#FAFAFA" Width="90" HorizontalAlignment="Left" CornerRadius="5" MouseLeftButtonDown="OpenBigMoment">
+                            <StackPanel Orientation="Vertical" Margin="10,2,10,2">
+                                <TextBlock Text="Moments forts" FontSize="10" Foreground="#FAFAFA"></TextBlock>
+                                <TextBlock Text="de la version" FontSize="10" Margin="5,0,0,0" Foreground="#FAFAFA"></TextBlock>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
                 </Grid>
             </Grid>
         </Grid>
