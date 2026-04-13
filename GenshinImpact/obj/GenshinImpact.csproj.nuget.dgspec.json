@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\CSharpNatif\\WPF\\GenshinImpact\\GenshinImpact.csproj": {}
+    "D:\\Github\\CSharpNatif\\WPF\\Genshin\\GenshinImpact\\GenshinImpact.csproj": {}
   },
   "projects": {
-    "D:\\Github\\CSharpNatif\\WPF\\GenshinImpact\\GenshinImpact.csproj": {
+    "D:\\Github\\CSharpNatif\\WPF\\Genshin\\GenshinImpact\\GenshinImpact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\CSharpNatif\\WPF\\GenshinImpact\\GenshinImpact.csproj",
+        "projectUniqueName": "D:\\Github\\CSharpNatif\\WPF\\Genshin\\GenshinImpact\\GenshinImpact.csproj",
         "projectName": "GenshinImpact",
-        "projectPath": "D:\\Github\\CSharpNatif\\WPF\\GenshinImpact\\GenshinImpact.csproj",
+        "projectPath": "D:\\Github\\CSharpNatif\\WPF\\Genshin\\GenshinImpact\\GenshinImpact.csproj",
         "packagesPath": "C:\\Users\\COMT0565\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\CSharpNatif\\WPF\\GenshinImpact\\obj\\",
+        "outputPath": "D:\\Github\\CSharpNatif\\WPF\\Genshin\\GenshinImpact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

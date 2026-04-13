@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "GenshinImpact/1.0.0": {
+        "runtime": {
+          "GenshinImpact.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GenshinImpact/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

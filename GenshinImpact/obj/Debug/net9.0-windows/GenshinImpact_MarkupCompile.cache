@@ -1,5 +1,5 @@
 ﻿GenshinImpact
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 D:\Github\CSharpNatif\WPF\Genshin\GenshinImpact\App.xaml
 11407045341
 
-61010769889
+41856607961
 2001466749558
 MainWindow.xaml;
 
