@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|f:\\github\\genshin\\genshinimpact\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|f:\\github\\genshin\\genshinimpact\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|f:\\github\\genshin\\genshinimpact\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|f:\\github\\genshin\\genshinimpact\\converter\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:converter\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 288,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "F:\\GitHub\\Genshin\\GenshinImpact\\Converter\\Converters.cs",
+              "RelativeDocumentMoniker": "Converter\\Converters.cs",
+              "ToolTip": "F:\\GitHub\\Genshin\\GenshinImpact\\Converter\\Converters.cs",
+              "RelativeToolTip": "Converter\\Converters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:02:01.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "F:\\GitHub\\Genshin\\GenshinImpact\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "F:\\GitHub\\Genshin\\GenshinImpact\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T07:23:26.172Z"
+              "WhenOpened": "2026-04-14T07:23:26.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -50,15 +68,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "F:\\GitHub\\Genshin\\GenshinImpact\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "F:\\GitHub\\Genshin\\GenshinImpact\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:08:05.885Z"
+              "WhenOpened": "2026-04-13T13:08:05.885Z",
+              "EditorCaption": ""
             }
           ]
         }

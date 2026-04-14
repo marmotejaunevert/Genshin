@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GenshinImpact"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="GINCHIN IMPEK" Height="720" Width="1280"
         WindowStyle="None"
@@ -17,6 +18,8 @@
     </Window.DataContext>
 
     <Window.Resources>
+        <local:IntToVisibility x:Key="IntToVisibility"/>
+
         <Style x:Key="SocialButtonStyle" TargetType="Border">
             <Setter Property="Background" Value="#00000000"></Setter>
             <Setter Property="Margin" Value="0,10,10,0"></Setter>
@@ -39,6 +42,18 @@
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#7F000000"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="CategoryStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#AAAAAAAA"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,0,20,0"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#FFFFFFFF"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -111,15 +126,57 @@
                     <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0">
                         <Border Style="{StaticResource SocialButtonStyle}">
                             <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.tiktok.com/@genshinimpact_en"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/Icons/Tiktok.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
                                 <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.hoyolab.com/home?lang=fr-fr&amp;utm_source=launcher&amp;utm_medium=game&amp;from_id=2&amp;utm_campaign=mimoicon"/>
                             </Border.InputBindings>
                             <Image Source="/Assets/Icons/hoyo2.png" Height="30" Width="30"/>
                         </Border>
                         <Border Style="{StaticResource SocialButtonStyle}">
                             <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.facebook.com/Genshinimpact.fr/"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/Icons/Facebook.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
                                 <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://discord.com/invite/genshinimpact"/>
                             </Border.InputBindings>
                             <Image Source="/Assets/Icons/discord.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://x.com/genshinimpactfr"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/Icons/X.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.youtube.com/c/GenshinImpact"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/Icons/youtube.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.hoyolab.com/article/162997?utm_source=launcher&amp;utm_medium=game&amp;from_id=2&amp;utm_campaign=faq"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/Icons/uh.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://genshin.hoyoverse.com/fr/home"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/Icons/house.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.reddit.com/user/genshinimpact/"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/Icons/Reddit.png" Height="30" Width="30"/>
                         </Border>
                     </StackPanel>
                     
@@ -136,7 +193,7 @@
                         </Border>
                     </StackPanel>
                         
-                    <!--  -->
+                    <!-- Patch Note -->
                     <Border Grid.Column="0" Background="#50000000" CornerRadius="15" HorizontalAlignment="Left" Height="290" Width="385" Margin="65,280,0,0">
                         <Grid>
                             <Grid.RowDefinitions>
@@ -160,12 +217,88 @@
                                     </Image.InputBindings>
                                 </Image>
                             </Border>
+
+                            <Grid Grid.Row="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                
+                                <!-- Category -->
+                                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10,10,10,0">
+                                    <StackPanel>
+                                        <StackPanel.InputBindings>
+                                            <MouseBinding MouseAction="LeftClick" Command="{Binding SelectTabCommand}" CommandParameter="0"/>
+                                        </StackPanel.InputBindings>
+                                        <TextBlock Text="Événements" Style="{StaticResource CategoryStyle}"/>
+                                    </StackPanel>
+
+                                    <StackPanel Margin="15,0,0,0">
+                                        <StackPanel.InputBindings>
+                                            <MouseBinding MouseAction="LeftClick" Command="{Binding SelectTabCommand}" CommandParameter="1"/>
+                                        </StackPanel.InputBindings>
+                                        <TextBlock Text="Annonces" Style="{StaticResource CategoryStyle}"/>
+                                    </StackPanel>
+
+                                    <StackPanel Margin="15,0,0,0">
+                                        <StackPanel.InputBindings>
+                                            <MouseBinding MouseAction="LeftClick" Command="{Binding SelectTabCommand}" CommandParameter="2"/>
+                                        </StackPanel.InputBindings>
+                                        <TextBlock Text="Actualités" Style="{StaticResource CategoryStyle}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                
+                                <!-- List Items -->
+                                <ItemsControl Grid.Row="1" ItemsSource="{Binding CurrentItems}" Margin="10,5,10,5">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="0,4,0,4">
+                                                <Grid.InputBindings>
+                                                    <MouseBinding MouseAction="LeftClick" Command="{Binding DataContext.OpenUrlCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding Url}"/>
+                                                </Grid.InputBindings>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="{Binding Title}" Foreground="White" FontSize="15" TextTrimming="CharacterEllipsis"/>
+                                                <TextBlock Grid.Column="1" Text="{Binding Date}" Foreground="#AAFFFFFF" FontSize="15" Margin="10,0,0,0"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </Grid>
+                            
                         </Grid>
                     </Border>
                     
                     <!-- Button Play -->
-                    <Button Height="90" Width="250" Margin="800,400,0,0" Command="{Binding PlayCommand}">
-                    </Button>
+                    <Border Height="65" Width="250" Margin="800,500,0,0" CornerRadius="30">
+                        <Border.InputBindings>
+                            <MouseBinding MouseAction="LeftClick" Command="{Binding PlayCommand}"/>
+                        </Border.InputBindings>
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Setter Property="Background" Value="#FFDB29"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#1A1A1A"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <TextBlock Text="Démarrer" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" FontWeight="Bold">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Foreground" Value="#1A1A1A"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsMouseOver, RelativeSource={RelativeSource AncestorType=Border}}" Value="True">
+                                            <Setter Property="Foreground" Value="#FFDB29"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </Border>
                 </Grid>
             </Grid>
         </Grid>
