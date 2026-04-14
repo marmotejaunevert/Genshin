@@ -142,7 +142,7 @@
                     </Border>
                     
                     <!-- Button Play -->
-                    <Button Height="90" Width="250" Margin="800,400,0,0" Click="">
+                    <Button Height="90" Width="250" Margin="800,400,0,0" Command="{Binding PlayCommand}">
                         
                     </Button>
                 </Grid>

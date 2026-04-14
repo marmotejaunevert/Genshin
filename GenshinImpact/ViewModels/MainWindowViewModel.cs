@@ -43,7 +43,9 @@ namespace GenshinImpact
 
             PlayCommand = new RelayCommand((_play) =>
             {
-
+                LoginWindow _loginWindow = new LoginWindow();
+                _loginWindow.Show();
+                Application.Current.MainWindow.Close();
             });
         }
     }

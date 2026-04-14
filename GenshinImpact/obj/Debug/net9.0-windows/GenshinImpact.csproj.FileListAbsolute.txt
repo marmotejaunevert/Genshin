@@ -90,3 +90,8 @@ E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-w
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.pdb
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.genruntimeconfig.cache
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\ref\GenshinImpact.dll
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.csproj.AssemblyReference.cache
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.g.cs
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\WpfAnimatedGif.dll
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.baml
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinI.6835196A.Up2Date
