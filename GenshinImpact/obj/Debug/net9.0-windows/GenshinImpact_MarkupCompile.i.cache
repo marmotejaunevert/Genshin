@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\
 GenshinImpact
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\App.xaml
+F:\GitHub\Genshin\GenshinImpact\App.xaml
 2-216653475
 17453259142
-11-436788668
-201-65847432
+13-1287295016
+201-449581822
 LoginWindow.xaml;MainWindow.xaml;
 
 True

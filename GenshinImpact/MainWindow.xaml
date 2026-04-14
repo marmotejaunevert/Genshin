@@ -18,8 +18,6 @@
     </Window.DataContext>
 
     <Window.Resources>
-        <local:IntToVisibility x:Key="IntToVisibility"/>
-
         <Style x:Key="SocialButtonStyle" TargetType="Border">
             <Setter Property="Background" Value="#00000000"></Setter>
             <Setter Property="Margin" Value="0,10,10,0"></Setter>
