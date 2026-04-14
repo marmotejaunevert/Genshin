@@ -52,3 +52,41 @@ F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\X.png
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Splashscreen_Ya-hoho_Linnea.png
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\whatsapp.png
 F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\discord.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\house.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\hoyo.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\hoyo2.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Messenger.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\parameters.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Reddit.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Splashscreen_Ya-hoho_Linnea.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\X.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\whatsapp.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.exe
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.deps.json
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.runtimeconfig.json
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.dll
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.pdb
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\WpfAnimatedGif.dll
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.csproj.AssemblyReference.cache
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.g.cs
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\MainWindow.g.cs
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\App.g.cs
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact_Content.g.cs
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact_MarkupCompile.cache
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact_MarkupCompile.lref
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.baml
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\MainWindow.baml
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.g.resources
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.GeneratedMSBuildEditorConfig.editorconfig
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.AssemblyInfoInputs.cache
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.AssemblyInfo.cs
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.csproj.CoreCompileInputs.cache
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.sourcelink.json
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinI.6835196A.Up2Date
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.dll
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\refint\GenshinImpact.dll
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.pdb
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.genruntimeconfig.cache
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\ref\GenshinImpact.dll
