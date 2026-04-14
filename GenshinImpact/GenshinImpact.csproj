@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="Assets\Alice_Introduction_Card.png" />
     <None Remove="Assets\discord.png" />
+    <None Remove="Assets\Fonts\GenshinFont.ttf" />
     <None Remove="Assets\house.png" />
     <None Remove="Assets\hoyo.png" />
     <None Remove="Assets\hoyo2.png" />
@@ -33,6 +34,7 @@
     <None Remove="Assets\Messenger.png" />
     <None Remove="Assets\parameters.png" />
     <None Remove="Assets\Reddit.png" />
+    <None Remove="Assets\Screen\LoadingScreen.gif" />
     <None Remove="Assets\Screen\Splashscreen_Ya-hoho_Linnea.png" />
     <None Remove="Assets\Splashscreen_Ya-hoho_Linnea.png" />
     <None Remove="Assets\whatsapp.png" />
@@ -85,6 +87,9 @@
     <Content Include="Assets\Icons\youtube.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Screen\LoadingScreen.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Screen\Splashscreen_Ya-hoho_Linnea.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -92,6 +97,12 @@
 
   <ItemGroup>
     <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\GenshinFont.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

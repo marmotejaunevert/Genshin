@@ -42,16 +42,43 @@ F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.genruntim
 F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\ref\GenshinImpact.dll
 F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact_Content.g.cs
 F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\discord.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\house.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\hoyo.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\hoyo2.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Messenger.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\parameters.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Reddit.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Splashscreen_Ya-hoho_Linnea.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\X.png
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\whatsapp.png
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.csproj.AssemblyReference.cache
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.g.cs
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\WpfAnimatedGif.dll
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.baml
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinI.6835196A.Up2Date
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Alice_Introduction_Card.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\discord.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Facebook.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\house.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\hoyo.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Hoyo2.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\hoyoverse.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Messenger.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\parameters.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Reddit.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Tiktok.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\uh.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\whatsapp.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\X.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\youtube.png
+F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Screen\Splashscreen_Ya-hoho_Linnea.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Alice_Introduction_Card.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\discord.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Facebook.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\house.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\hoyo.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Hoyo2.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\hoyoverse.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Messenger.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\parameters.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Reddit.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Tiktok.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\uh.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\whatsapp.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\X.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\youtube.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Screen\Splashscreen_Ya-hoho_Linnea.png
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.exe
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.deps.json
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\GenshinImpact.runtimeconfig.json
@@ -80,26 +107,4 @@ E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-w
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.pdb
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.genruntimeconfig.cache
 E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\obj\Debug\net9.0-windows\ref\GenshinImpact.dll
-F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinImpact.csproj.AssemblyReference.cache
-F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.g.cs
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\WpfAnimatedGif.dll
-F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.baml
-F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinI.6835196A.Up2Date
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\LoadingScreen.gif
-E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\LoadingScreenTest.gif
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Alice_Introduction_Card.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\discord.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Facebook.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\house.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\hoyo.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Hoyo2.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\hoyoverse.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Messenger.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\parameters.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Reddit.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\Tiktok.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\uh.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\whatsapp.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\X.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Icons\youtube.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Screen\Splashscreen_Ya-hoho_Linnea.png
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Screen\LoadingScreen.gif
