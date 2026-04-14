@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3cn/lpVpBmc=",
+  "dgSpecHash": "lwARm9ks2Fc=",
   "success": true,
-  "projectFilePath": "F:\\GitHub\\Genshin\\GenshinImpact\\GenshinImpact.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\GenshinImpact.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
