@@ -1,25 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\",
+  "WorkspaceRootPath": "F:\\GitHub\\Genshin\\GenshinImpact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|e:\\courso3d 2eme\\cplusplus\\unrealengine\\genshin\\genshinimpact\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|e:\\courso3d 2eme\\cplusplus\\unrealengine\\genshin\\genshinimpact\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|e:\\courso3d 2eme\\cplusplus\\unrealengine\\genshin\\genshinimpact\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|f:\\github\\genshin\\genshinimpact\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|e:\\courso3d 2eme\\cplusplus\\unrealengine\\genshin\\genshinimpact\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|f:\\github\\genshin\\genshinimpact\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|e:\\courso3d 2eme\\cplusplus\\unrealengine\\genshin\\genshinimpact\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|f:\\github\\genshin\\genshinimpact\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35D40570-C7E9-4BE0-AA30-D817D60853A5}|GenshinImpact.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,57 +22,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 288,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
-              "ToolTip": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "F:\\GitHub\\Genshin\\GenshinImpact\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "F:\\GitHub\\Genshin\\GenshinImpact\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T09:19:30.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-14T07:23:26.172Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "LoginWindow.xaml",
-              "ToolTip": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\LoginWindow.xaml*",
-              "RelativeToolTip": "LoginWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T09:18:29.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T07:23:26.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\MainWindow.xaml",
+              "DocumentMoniker": "F:\\GitHub\\Genshin\\GenshinImpact\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\MainWindow.xaml",
+              "ToolTip": "F:\\GitHub\\Genshin\\GenshinImpact\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-13T13:08:07.725Z",
@@ -88,16 +50,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\GitHub\\Genshin\\GenshinImpact\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "E:\\CoursO3D 2eme\\CPlusPLus\\UnrealEngine\\Genshin\\GenshinImpact\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\GitHub\\Genshin\\GenshinImpact\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:08:05.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T13:08:05.885Z"
             }
           ]
         }

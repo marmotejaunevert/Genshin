@@ -14,11 +14,26 @@
     <None Remove="Assets\house.png" />
     <None Remove="Assets\hoyo.png" />
     <None Remove="Assets\hoyo2.png" />
+    <None Remove="Assets\Icons\discord.png" />
+    <None Remove="Assets\Icons\Facebook.png" />
+    <None Remove="Assets\Icons\house.png" />
+    <None Remove="Assets\Icons\hoyo.png" />
+    <None Remove="Assets\Icons\Hoyo2.png" />
+    <None Remove="Assets\Icons\hoyoverse.png" />
+    <None Remove="Assets\Icons\Messenger.png" />
+    <None Remove="Assets\Icons\parameters.png" />
+    <None Remove="Assets\Icons\Reddit.png" />
+    <None Remove="Assets\Icons\Tiktok.png" />
+    <None Remove="Assets\Icons\uh.png" />
+    <None Remove="Assets\Icons\whatsapp.png" />
+    <None Remove="Assets\Icons\X.png" />
+    <None Remove="Assets\Icons\youtube.png" />
     <None Remove="Assets\LoadingScreen.gif" />
     <None Remove="Assets\LoadingScreenTest.gif" />
     <None Remove="Assets\Messenger.png" />
     <None Remove="Assets\parameters.png" />
     <None Remove="Assets\Reddit.png" />
+    <None Remove="Assets\Screen\Splashscreen_Ya-hoho_Linnea.png" />
     <None Remove="Assets\Splashscreen_Ya-hoho_Linnea.png" />
     <None Remove="Assets\whatsapp.png" />
     <None Remove="Assets\X.png" />
@@ -28,40 +43,49 @@
     <Content Include="Assets\Alice_Introduction_Card.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\discord.png">
+    <Content Include="Assets\Icons\discord.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\house.png">
+    <Content Include="Assets\Icons\Facebook.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\hoyo.png">
+    <Content Include="Assets\Icons\house.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\hoyo2.png">
+    <Content Include="Assets\Icons\hoyo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\LoadingScreen.gif">
+    <Content Include="Assets\Icons\Hoyo2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\LoadingScreenTest.gif">
+    <Content Include="Assets\Icons\hoyoverse.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Messenger.png">
+    <Content Include="Assets\Icons\Messenger.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\parameters.png">
+    <Content Include="Assets\Icons\parameters.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Reddit.png">
+    <Content Include="Assets\Icons\Reddit.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Splashscreen_Ya-hoho_Linnea.png">
+    <Content Include="Assets\Icons\Tiktok.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EmbeddedResource Include="Assets\whatsapp.png">
+    <Content Include="Assets\Icons\uh.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <Content Include="Assets\X.png">
+    </Content>
+    <Content Include="Assets\Icons\whatsapp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\X.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\youtube.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Screen\Splashscreen_Ya-hoho_Linnea.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

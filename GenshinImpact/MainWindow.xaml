@@ -68,9 +68,9 @@
                 </LinearGradientBrush>
             </Grid.Background>
             <!-- Logo Hoyo -->
-            <Image Source="/Assets/hoyo.png" Grid.Column="0" VerticalAlignment="Top" Margin="7"/>
+            <Image Source="/Assets/Icons/hoyo.png" Grid.Column="0" VerticalAlignment="Top" Margin="7"/>
 
-            <Image Source="/Assets/Splashscreen_Ya-hoho_Linnea.png" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
+            <Image Source="/Assets/Screen/Splashscreen_Ya-hoho_Linnea.png" Grid.ColumnSpan="2" HorizontalAlignment="Right"/>
 
             <Grid Grid.Column="1" Background="Transparent">
                 <Grid.RowDefinitions>
@@ -86,7 +86,7 @@
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
                     <Border Style="{StaticResource ToolBar}">
-                        <Image Source="/Assets/parameters.png" Width="45" Height="45" Margin="-5,-7.5,0,0"/>
+                        <Image Source="/Assets/Icons/parameters.png" Width="45" Height="45" Margin="-5,-7.5,0,0"/>
                     </Border>
                     <Border Style="{StaticResource ToolBar}">
                         <Border.InputBindings>
@@ -113,13 +113,13 @@
                             <Border.InputBindings>
                                 <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.hoyolab.com/home?lang=fr-fr&amp;utm_source=launcher&amp;utm_medium=game&amp;from_id=2&amp;utm_campaign=mimoicon"/>
                             </Border.InputBindings>
-                            <Image Source="/Assets/hoyo2.png" Height="30" Width="30"/>
+                            <Image Source="/Assets/Icons/hoyo2.png" Height="30" Width="30"/>
                         </Border>
                         <Border Style="{StaticResource SocialButtonStyle}">
                             <Border.InputBindings>
                                 <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://discord.com/invite/genshinimpact"/>
                             </Border.InputBindings>
-                            <Image Source="/Assets/discord.png" Height="30" Width="30"/>
+                            <Image Source="/Assets/Icons/discord.png" Height="30" Width="30"/>
                         </Border>
                     </StackPanel>
                     
