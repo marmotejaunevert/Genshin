@@ -7,20 +7,90 @@
         xmlns:gif ="http://wpfanimatedgif.codeplex.com"
         mc:Ignorable="d"
         Title="LoginWindow" ResizeMode="NoResize">
+    <Window.DataContext>
+        <local:LoginWindowViewModel></local:LoginWindowViewModel>
+    </Window.DataContext>
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="White"
+                            CornerRadius="10">
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                      HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"
+                                      Margin="10,0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"></BooleanToVisibilityConverter>
+    </Window.Resources>
     <Grid>
         <Image x:Name="LoadingScreen" gif:ImageBehavior.AnimatedSource="/Assets/Screen/LoadingScreen.gif" Stretch="Fill" ></Image>
-        <Border x:Name="LoginBorder" CornerRadius="40" Margin="650,250">
-            <Rectangle x:Name="LoginSpace" Fill="#FFEDEDED">
-                <!-- Corners -->
-                <Rectangle.OpacityMask>
-                    <VisualBrush>
-                        <VisualBrush.Visual>
-                            <Border Background="#FFEDEDED" CornerRadius="{Binding CornerRadius, ElementName=LoginBorder}" Width="{Binding ActualWidth, ElementName=LoginSpace}" Height="{Binding ActualHeight, ElementName=LoginSpace}"></Border>
-                        </VisualBrush.Visual>
-                    </VisualBrush>
-                </Rectangle.OpacityMask>
-            </Rectangle>
-        </Border>
-        <Label Content="Login" Foreground="Black" Margin="650,250" FontSize="70" ></Label>
+        <Grid Visibility="{Binding IsGridVisible, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <Border x:Name="LoginBorder" CornerRadius="40" Margin="650,250">
+                <Rectangle x:Name="LoginSpace" Fill="White">
+                    <!-- Corners -->
+                    <Rectangle.OpacityMask>
+                        <VisualBrush>
+                            <VisualBrush.Visual>
+                                <Border Background="White" CornerRadius="{Binding CornerRadius, ElementName=LoginBorder}" Width="{Binding ActualWidth, ElementName=LoginSpace}" Height="{Binding ActualHeight, ElementName=LoginSpace}"></Border>
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Rectangle.OpacityMask>
+                </Rectangle>
+            </Border>
+            <Grid Height="550" Width="600">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Image Name="Logo" Source="/Assets/Icons/hoyoverse.png" Margin="100,0,100,0"></Image>
+                <!--UserTextbox-->
+                <Border Grid.Row="1" x:Name="UsernameBorder" CornerRadius="10" BorderBrush="#FFD4D4D4" BorderThickness="2" Margin="10,20">
+                    <TextBox Text="Enter email/username" FontSize="40"  Foreground="Gray">
+                        <TextBox.OpacityMask>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <Border Background="#FFEDEDED" CornerRadius="{Binding CornerRadius, ElementName=UsernameBorder}" Width="{Binding ActualWidth, ElementName=UsernameBorder}" Height="{Binding ActualHeight, ElementName=UsernameBorder}"></Border>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </TextBox.OpacityMask>
+                    </TextBox>
+                </Border>
+                <!--Password Textbox-->
+                <Border Grid.Row="2" x:Name="PasswordBorder" CornerRadius="10" BorderBrush="#FFD4D4D4" BorderThickness="2" Margin="10,20">
+                    <TextBox Text="Enter password" FontSize="40" Foreground="Gray" BorderBrush="#FFBBBBBB">
+                        <TextBox.OpacityMask>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <Border Background="#FFEDEDED"  CornerRadius="{Binding CornerRadius, ElementName=UsernameBorder}" Width="{Binding ActualWidth, ElementName=UsernameBorder}" Height="{Binding ActualHeight, ElementName=UsernameBorder}"></Border>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </TextBox.OpacityMask>
+                    </TextBox>
+                </Border>
+                <!-- Button LogIn-->
+                <Border Grid.Row ="4" x:Name="LoginButtonBorder" Margin="10" CornerRadius="15">
+                    <Button BorderBrush="#FF454348" Background="#3A393E" Content="Log in" FontSize="45" Foreground="#D9BC62" Command="{Binding ChangeLoadingScreen}">
+                        <Button.OpacityMask>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <Border Background="#FFEDEDED" CornerRadius="{Binding CornerRadius, ElementName=LoginButtonBorder}" Width="{Binding ActualWidth, ElementName=LoginButtonBorder}" Height="{Binding ActualHeight, ElementName=LoginButtonBorder}"></Border>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Button.OpacityMask>
+                    </Button>
+                </Border>
+            </Grid>
+        </Grid>
+        <Label Content="Loading..." FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#D9BC62" Visibility="{Binding IsLoadingVisible, Converter={StaticResource BooleanToVisibilityConverter}}"></Label>
     </Grid>
 </Window>

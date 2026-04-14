@@ -23,5 +23,6 @@ namespace GenshinImpact
         {
             InitializeComponent();
         }
+
     }
 }
