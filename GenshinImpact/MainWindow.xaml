@@ -137,13 +137,34 @@
                     </StackPanel>
                         
                     <!--  -->
-                    <Border Grid.Column="0" Background="#50000000" CornerRadius="15" HorizontalAlignment="Left" Height="270" Width="400" Margin="65,280,0,0">
-                        <Image></Image>
+                    <Border Grid.Column="0" Background="#50000000" CornerRadius="15" HorizontalAlignment="Left" Height="290" Width="385" Margin="65,280,0,0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.65*"/>
+                                <RowDefinition Height="0.35*"/>
+                            </Grid.RowDefinitions>
+                            <Border x:Name="ImageBorder" Grid.Row="0" CornerRadius="15">
+                                <Image Source="/Assets/Alice_Introduction_Card.png" Stretch="Fill">
+                                    <Image.OpacityMask>
+                                        <VisualBrush>
+                                            <VisualBrush.Visual>
+                                                <Border Background="Black" 
+                                                        CornerRadius="{Binding CornerRadius, ElementName=ImageBorder}"
+                                                        Width="{Binding ActualWidth, ElementName=ImageBorder}" 
+                                                        Height="{Binding ActualHeight, ElementName=ImageBorder}"></Border>
+                                            </VisualBrush.Visual>
+                                        </VisualBrush>
+                                    </Image.OpacityMask>
+                                    <Image.InputBindings>
+                                        <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://genshin-impact.fandom.com/fr/wiki/Alice"/>
+                                    </Image.InputBindings>
+                                </Image>
+                            </Border>
+                        </Grid>
                     </Border>
                     
                     <!-- Button Play -->
                     <Button Height="90" Width="250" Margin="800,400,0,0" Command="{Binding PlayCommand}">
-                        
                     </Button>
                 </Grid>
             </Grid>

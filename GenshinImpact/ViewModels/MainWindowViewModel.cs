@@ -16,6 +16,7 @@ namespace GenshinImpact
         public ICommand CloseWindow { get; }
         public ICommand MinimizeWindow { get; }
         public ICommand PlayCommand { get; }
+        public ICommand SelectTabCommand { get; }
 
         public MainWindowViewModel()
         {
@@ -46,6 +47,16 @@ namespace GenshinImpact
                 LoginWindow _loginWindow = new LoginWindow();
                 _loginWindow.Show();
                 Application.Current.MainWindow.Close();
+                Application.Current.MainWindow = _loginWindow;
+                Application.Current.MainWindow.WindowState = WindowState.Maximized;
+            });
+
+            SelectTabCommand = new RelayCommand((_selectTab) =>
+            {
+                if (_selectTab is string _selected && int.TryParse(_selected, out int _tab))
+                {
+
+                }
             });
         }
     }
