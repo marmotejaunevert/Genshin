@@ -32,7 +32,7 @@ namespace GenshinImpact
 
         private void OpenBigMoment(object sender, MouseButtonEventArgs e)
         {
-            string _url = "https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de&mhy_presentation_style=fullscreen&utm_source=launchergenshin&utm_medium=news#/index";
+            string _url = "";
 
             Process.Start(new ProcessStartInfo
             {
@@ -40,6 +40,5 @@ namespace GenshinImpact
                 UseShellExecute = true
             });
         }
-
     }
 }

@@ -79,7 +79,7 @@
 
                     <StackPanel Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Left">
                         <Border Margin="65,270,0,0" BorderThickness="1" BorderBrush="#FAFAFA" Width="90" HorizontalAlignment="Left" CornerRadius="5" MouseLeftButtonDown="OpenBigMoment">
-                            <StackPanel Orientation="Vertical" Margin="10,2,10,2">
+                            <StackPanel Orientation="Vertical" Margin="10,2,10,2" Tag="https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de&amp;mhy_presentation_style=fullscreen&amp;utm_source=launchergenshin&amp;utm_medium=news#/index">
                                 <TextBlock Text="Moments forts" FontSize="10" Foreground="#FAFAFA"></TextBlock>
                                 <TextBlock Text="de la version" FontSize="10" Margin="5,0,0,0" Foreground="#FAFAFA"></TextBlock>
                             </StackPanel>
