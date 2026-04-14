@@ -95,3 +95,5 @@ F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.g.cs
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\WpfAnimatedGif.dll
 F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\LoginWindow.baml
 F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GenshinI.6835196A.Up2Date
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\LoadingScreen.gif
+E:\CoursO3D 2eme\CPlusPLus\UnrealEngine\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\LoadingScreenTest.gif

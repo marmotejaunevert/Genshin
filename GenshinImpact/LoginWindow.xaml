@@ -4,9 +4,23 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GenshinImpact"
+        xmlns:gif ="http://wpfanimatedgif.codeplex.com"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="450" Width="800">
+        Title="LoginWindow" ResizeMode="NoResize">
     <Grid>
-        <Image x:Name="LoadingScreen" Source="/Assets/LoadingScreen.gif" ></Image>
+        <Image x:Name="LoadingScreen" gif:ImageBehavior.AnimatedSource="/Assets/Screen/LoadingScreen.gif" Stretch="Fill" ></Image>
+        <Border x:Name="LoginBorder" CornerRadius="40" Margin="650,250">
+            <Rectangle x:Name="LoginSpace" Fill="#FFEDEDED">
+                <!-- Corners -->
+                <Rectangle.OpacityMask>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Border Background="#FFEDEDED" CornerRadius="{Binding CornerRadius, ElementName=LoginBorder}" Width="{Binding ActualWidth, ElementName=LoginSpace}" Height="{Binding ActualHeight, ElementName=LoginSpace}"></Border>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Rectangle.OpacityMask>
+            </Rectangle>
+        </Border>
+        <Label Content="Login" Foreground="Black" Margin="650,250" FontSize="70" ></Label>
     </Grid>
 </Window>

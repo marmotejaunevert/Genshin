@@ -13,6 +13,8 @@
     <None Remove="Assets\house.png" />
     <None Remove="Assets\hoyo.png" />
     <None Remove="Assets\hoyo2.png" />
+    <None Remove="Assets\LoadingScreen.gif" />
+    <None Remove="Assets\LoadingScreenTest.gif" />
     <None Remove="Assets\Messenger.png" />
     <None Remove="Assets\parameters.png" />
     <None Remove="Assets\Reddit.png" />
@@ -32,6 +34,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\hoyo2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LoadingScreen.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LoadingScreenTest.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Messenger.png">

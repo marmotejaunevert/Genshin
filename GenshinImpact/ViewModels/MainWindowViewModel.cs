@@ -46,6 +46,8 @@ namespace GenshinImpact
                 LoginWindow _loginWindow = new LoginWindow();
                 _loginWindow.Show();
                 Application.Current.MainWindow.Close();
+                Application.Current.MainWindow = _loginWindow;
+                Application.Current.MainWindow.WindowState = WindowState.Maximized;
             });
         }
     }
