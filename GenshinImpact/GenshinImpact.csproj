@@ -19,7 +19,6 @@
     <None Remove="Assets\Splashscreen_Ya-hoho_Linnea.png" />
     <None Remove="Assets\whatsapp.png" />
     <None Remove="Assets\X.png" />
-    <None Remove="Assets\youtube.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,9 +50,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <Content Include="Assets\X.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\youtube.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

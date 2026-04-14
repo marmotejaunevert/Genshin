@@ -17,6 +17,5 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/reddit.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/splashscreen_ya-hoho_linnea.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/x.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/youtube.jpg")]
 
 

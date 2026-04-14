@@ -49,6 +49,6 @@ F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Messenger.png
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\parameters.png
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Reddit.png
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\X.png
-F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\youtube.jpg
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\Splashscreen_Ya-hoho_Linnea.png
 F:\GitHub\Genshin\GenshinImpact\bin\Debug\net9.0-windows\Assets\whatsapp.png
+F:\GitHub\Genshin\GenshinImpact\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs

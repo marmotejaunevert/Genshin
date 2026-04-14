@@ -12,6 +12,38 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen">
 
+    <Window.DataContext>
+        <local:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <Style x:Key="SocialButtonStyle" TargetType="Border">
+            <Setter Property="Background" Value="#00000000"></Setter>
+            <Setter Property="Margin" Value="0,10,10,0"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Width" Value="40"></Setter>
+            <Setter Property="CornerRadius" Value="5"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#7F000000"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="ToolBar" TargetType="Border">
+            <Setter Property="Background" Value="#00000000"></Setter>
+            <Setter Property="Margin" Value="0,0,10,0"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="Width" Value="30"></Setter>
+            <Setter Property="CornerRadius" Value="3"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#7F000000"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
     <Border CornerRadius="10" Background="White" x:Name="MainBorder">
         <Grid>
             <Grid.OpacityMask>
@@ -42,7 +74,7 @@
 
             <Grid Grid.Column="1" Background="Transparent">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="50"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
@@ -53,11 +85,15 @@
                 </Grid>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
-                    <!--
-                    Option button
-                    Reduire button
-                    Quit button
-                    -->
+                    <Border Style="{StaticResource ToolBar}">
+                        <Image Source="/Assets/parameters.png" Width="45" Height="45" Margin="-5,-7.5,0,0"/>
+                    </Border>
+                    <Border Style="{StaticResource ToolBar}">
+                        <TextBlock Text="-" Width="45" Height="45" Margin="10,-10,0,0" FontSize="30" FontWeight="Bold" Foreground="White"/>
+                    </Border>
+                    <Border Style="{StaticResource ToolBar}">
+                        <TextBlock Text="✕" Width="45" Height="45" Margin="4,-3,0,0" FontSize="25" FontWeight="Bold" Foreground="White"/>
+                    </Border>
                 </StackPanel>
 
                 <Grid Grid.Row="1">
@@ -66,20 +102,27 @@
                         <ColumnDefinition Width="60"/>
                     </Grid.ColumnDefinitions>
                     <!-- Réseaux -->
-                    <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="15,50,15,0">
-                        <Image Source="/Assets/hoyo2.png" Height="60"/>
-                        <Image Source="/Assets/Messenger.png" Height="60" />
-                        <Image Source="/Assets/X.png" Height="60"/>
-                        <Image Source="/Assets/discord.png" Height="60"/>
-                        <Image Source="/Assets/Reddit.png" Height="60"/>
-                        <Image Source="/Assets/whatsapp.png" Height="60"/>
-                        <Image Source="/Assets/youtube.jpg" Height="60"/>
-                        <Image Source="/Assets/house.png" Height="60"/>
+                    <StackPanel Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0">
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://www.hoyolab.com/home?lang=fr-fr&amp;utm_source=launcher&amp;utm_medium=game&amp;from_id=2&amp;utm_campaign=mimoicon"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/hoyo2.png" Height="30" Width="30"/>
+                        </Border>
+                        <Border Style="{StaticResource SocialButtonStyle}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://discord.com/invite/genshinimpact"/>
+                            </Border.InputBindings>
+                            <Image Source="/Assets/discord.png" Height="30" Width="30"/>
+                        </Border>
                     </StackPanel>
 
                     <StackPanel Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Left">
-                        <Border Margin="65,270,0,0" BorderThickness="1" BorderBrush="#FAFAFA" Width="90" HorizontalAlignment="Left" CornerRadius="5" MouseLeftButtonDown="OpenBigMoment">
-                            <StackPanel Orientation="Vertical" Margin="10,2,10,2" Tag="https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de&amp;mhy_presentation_style=fullscreen&amp;utm_source=launchergenshin&amp;utm_medium=news#/index">
+                        <Border Margin="65,270,0,0" BorderThickness="1" BorderBrush="#FAFAFA" Width="90" HorizontalAlignment="Left" CornerRadius="5">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" Command="{Binding OpenUrlCommand}" CommandParameter="https://act.hoyoverse.com/ys/event/blue-post/index.html?page_sn=a8dca8609c7346de&amp;mhy_presentation_style=fullscreen&amp;utm_source=launchergenshin&amp;utm_medium=news#/index"/>
+                            </Border.InputBindings>
+                            <StackPanel Orientation="Vertical" Margin="10,2,10,2">
                                 <TextBlock Text="Moments forts" FontSize="10" Foreground="#FAFAFA"></TextBlock>
                                 <TextBlock Text="de la version" FontSize="10" Margin="5,0,0,0" Foreground="#FAFAFA"></TextBlock>
                             </StackPanel>

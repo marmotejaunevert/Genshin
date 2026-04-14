@@ -29,16 +29,5 @@ namespace GenshinImpact
                 this.DragMove();
             }
         }
-
-        private void OpenBigMoment(object sender, MouseButtonEventArgs e)
-        {
-            string _url = "";
-
-            Process.Start(new ProcessStartInfo
-            {
-                FileName = _url,
-                UseShellExecute = true
-            });
-        }
     }
 }
